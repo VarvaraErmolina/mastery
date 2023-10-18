@@ -55,7 +55,7 @@ function verify() {
         result = "Ни одно неравенство не выполняется"
         document.getElementById("result").innerText = messageText + result;
         //document.getElementsByName('result')[0].value = result;
-        check = false;
+        check = true;
     }
 }
 
